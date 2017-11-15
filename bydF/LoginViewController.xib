@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="4096" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwP-7L-5jB">
+                    <rect key="frame" x="20" y="368" width="335" height="44"/>
+                    <color key="backgroundColor" red="0.46666666670000001" green="0.3803921569" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="eGd-Og-ScB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="LoginClick:" destination="-1" eventType="touchUpInside" id="IRo-Wx-Z5d"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginModule_login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="obO-4K-xQL">
+                    <rect key="frame" x="133.5" y="183" width="108" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="108" id="3Ke-sr-hQU"/>
+                        <constraint firstAttribute="height" constant="108" id="5cO-RV-FaQ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 餐饮业互联网时代的颠覆者 -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1On-FZ-vDc">
+                    <rect key="frame" x="58" y="301" width="259.5" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="hUE-Wz-A4k"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="obO-4K-xQL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1Ud-7m-IQq"/>
+                <constraint firstItem="obO-4K-xQL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="183" id="3E7-9P-6Ry"/>
+                <constraint firstAttribute="trailing" secondItem="pwP-7L-5jB" secondAttribute="trailing" constant="20" id="Ud0-ra-h7l"/>
+                <constraint firstItem="pwP-7L-5jB" firstAttribute="top" secondItem="1On-FZ-vDc" secondAttribute="bottom" constant="48" id="dVe-8K-czX"/>
+                <constraint firstItem="pwP-7L-5jB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="mOU-mg-Aie"/>
+                <constraint firstItem="1On-FZ-vDc" firstAttribute="top" secondItem="obO-4K-xQL" secondAttribute="bottom" constant="10" id="naZ-E8-ZPQ"/>
+                <constraint firstItem="1On-FZ-vDc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yF5-yG-ZDv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="WLH-28-u2L"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LoginModule_login_logo" width="108" height="108"/>
+    </resources>
+</document>

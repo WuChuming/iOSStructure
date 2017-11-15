@@ -1,0 +1,119 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CSStickyHeaderFlowLayout (0.2.11)
+  - DZNEmptyDataSet (1.7.3)
+  - EAIntroView (2.8.3):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - GMGridView (1.1.1)
+  - HexColors (2.2.1)
+  - HMSegmentedControl (1.5.4)
+  - iCarousel (1.8.3)
+  - INTULocationManager (4.2.0)
+  - IQKeyboardManager (4.0.13)
+  - MACTableView (1.1.0):
+    - DZNEmptyDataSet (~> 1.7.2)
+    - MJRefresh (~> 3.1.0)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - MXSegmentedPager (2.0.0):
+    - HMSegmentedControl (~> 1.5.2)
+    - VGParallaxHeader (~> 0.0.6)
+  - pop (1.0.10)
+  - PureLayout (3.0.2)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - VGParallaxHeader (0.0.6):
+    - PureLayout
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - CSStickyHeaderFlowLayout (~> 0.2.10)
+  - DZNEmptyDataSet (~> 1.7.2)
+  - EAIntroView (~> 2.8.1)
+  - GMGridView (~> 1.1.1)
+  - iCarousel (~> 1.8.2)
+  - INTULocationManager (~> 4.2.0)
+  - IQKeyboardManager (~> 4.0.0)
+  - MACTableView (~> 1.1.0)
+  - Masonry (~> 0.6.2)
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.0)
+  - MMPopupView (~> 1.7)
+  - MXSegmentedPager (~> 2.0.0)
+  - pop (~> 1.0)
+  - SDCycleScrollView (~> 1.62)
+  - SDWebImage (~> 3.7.5)
+  - TSMessages (~> 0.9.12)
+  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
+  - YYImage (~> 1.0.3)
+  - YYText (~> 1.0.5)
+  - YYWebImage (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CSStickyHeaderFlowLayout: e9bcb1762413f49d7d09e5bd0ae5efd1100116b7
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  EAIntroView: e948c83e642f30010d427e643c18a6f2b529afed
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  GMGridView: 0e91e818e8b4768cfa1132ff3fdff24391ee230c
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  MACTableView: 3f378d6eb8d13f3abc30c4e4a804660ef8523e19
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  MXSegmentedPager: bc6b5555d618f2be3e8da0472739d883d64b5796
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  VGParallaxHeader: 1213aba58c9b0aea84f9e81ad526fde57aa4fe48
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 307c9e6b8de85bcd0e98379ce48c355b92a384de
+
+COCOAPODS: 1.2.1
